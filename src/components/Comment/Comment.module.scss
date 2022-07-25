@@ -1,0 +1,20 @@
+@import '~styles/fonts';
+@import '~styles/colors';
+
+.container {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid $color4;
+
+  .user {
+    font-weight: $fontWeightBold;
+  }
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .text {
+    margin-top: 5px;
+  }
+}

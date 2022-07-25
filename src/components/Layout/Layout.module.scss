@@ -1,0 +1,13 @@
+@import '~styles/colors';
+@import '~styles/variables';
+
+.container {
+  .content {
+    width: 100%;
+    height: calc(100vh - $header-height);
+    max-width: 800px;
+    margin: auto;
+    border-left: 1px solid $color4;
+    border-right: 1px solid $color4;
+  }
+}

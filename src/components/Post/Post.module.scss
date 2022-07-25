@@ -1,0 +1,53 @@
+@import '~styles/fonts';
+@import '~styles/colors';
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid $color4;
+  transition: background-color 0.2s;
+  cursor: pointer;
+
+  .content {
+    flex: 1;
+    padding-left: 10px;
+  }
+
+  .user {
+    .name {
+      font-weight: $fontWeightBold;
+    }
+    .username {
+      @include font-text-regular-small;
+    }
+  }
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .text {
+    margin-top: 5px;
+  }
+
+  &:hover {
+    background-color: rgba($color2, 0.03);
+  }
+
+  &.big {
+    @include font-text-regular-large;
+
+    .avatar {
+      @include font-title-light-extraLarge;
+      width: 60px;
+      height: 60px;
+    }
+
+    .user {
+      .username {
+        @include font-text-regular-normal;
+      }
+    }
+  }
+}

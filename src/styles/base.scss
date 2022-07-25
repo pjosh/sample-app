@@ -1,0 +1,11 @@
+@import '~styles/fonts';
+@import '~styles/colors';
+
+body {
+  @include font-text-regular-normal;
+  background: $color1;
+  font-family: $fontFamily;
+  color: $color2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

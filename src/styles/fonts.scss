@@ -1,0 +1,40 @@
+$fontFamily: 'Open Sans', sans-serif;
+
+$fontSizeS: 12px;
+$fontSizeM: 14px;
+$fontSizeL: 16px;
+$fontSizeXL: 18px;
+
+$fontWeightLight: 300;
+$fontWeightRegular: 400;
+$fontWeightBold: 600;
+
+@mixin font-text-regular-small {
+  font-size: $fontSizeS;
+  font-weight: $fontWeightRegular;
+  line-height: 1;
+}
+
+@mixin font-text-regular-normal {
+  font-size: $fontSizeM;
+  font-weight: $fontWeightRegular;
+  line-height: 1;
+}
+
+@mixin font-text-regular-large {
+  font-size: $fontSizeL;
+  font-weight: $fontWeightRegular;
+  line-height: 1;
+}
+
+@mixin font-title-light-large {
+  font-size: $fontSizeL;
+  font-weight: $fontWeightLight;
+  line-height: 1;
+}
+
+@mixin font-title-light-extraLarge {
+  font-size: $fontSizeXL;
+  font-weight: $fontWeightLight;
+  line-height: 1;
+}
